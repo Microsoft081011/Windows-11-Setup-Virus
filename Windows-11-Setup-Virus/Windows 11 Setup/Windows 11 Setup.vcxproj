@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{73ef4267-3020-4808-8f0d-2eebc9cf3379}</ProjectGuid>
+    <RootNamespace>Windows11Setup</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BSOD.cpp" />
+    <ClCompile Include="HookClass.cpp" />
+    <ClCompile Include="Limit.cpp" />
+    <ClCompile Include="Main1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HookClass.h" />
+    <ClInclude Include="MBR.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="resource1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Boot\Boot1.gif" />
+    <Image Include="res\Boot\Boot2.gif" />
+    <Image Include="res\Desktop\Desktop.png" />
+    <Image Include="res\Desktop\Photo-Null.png" />
+    <Image Include="res\Desktop\Photo.png" />
+    <Image Include="res\Desktop\Terror.png" />
+    <Image Include="res\Desktop\任务栏.png" />
+    <Image Include="res\Desktop\再见 世界.png" />
+    <Image Include="res\Desktop\回收站-Null.png" />
+    <Image Include="res\Desktop\回收站.png" />
+    <Image Include="res\Desktop\开始菜单.png" />
+    <Image Include="res\Desktop\开始菜单2.png" />
+    <Image Include="res\Desktop\文件夹-Null.png" />
+    <Image Include="res\Desktop\文件夹.png" />
+    <Image Include="res\Desktop\文本1.png" />
+    <Image Include="res\Desktop\文本2.png" />
+    <Image Include="res\Desktop\文本文档-Null.png" />
+    <Image Include="res\Desktop\文本文档.png" />
+    <Image Include="res\Desktop\此电脑-Null.png" />
+    <Image Include="res\Desktop\此电脑.png" />
+    <Image Include="res\Desktop\照片-Null.png" />
+    <Image Include="res\Desktop\照片.png" />
+    <Image Include="res\Desktop\花屏\1.bmp" />
+    <Image Include="res\Desktop\花屏\2.bmp" />
+    <Image Include="res\Desktop\花屏\3.bmp" />
+    <Image Include="res\Desktop\花屏\4.bmp" />
+    <Image Include="res\Desktop\花屏\5.bmp" />
+    <Image Include="res\Desktop\花屏\6.bmp" />
+    <Image Include="res\End\B1-1.bmp" />
+    <Image Include="res\End\B1-2.bmp" />
+    <Image Include="res\End\B2-1.bmp" />
+    <Image Include="res\End\B2-Null.bmp" />
+    <Image Include="res\End\Error.png" />
+    <Image Include="res\End\gif1.gif" />
+    <Image Include="res\End\gif2.gif" />
+    <Image Include="res\KB1\1.bmp" />
+    <Image Include="res\KB1\2.bmp" />
+    <Image Include="res\KB1\3.bmp" />
+    <Image Include="res\KB1\4.bmp" />
+    <Image Include="res\KB1\5.bmp" />
+    <Image Include="res\KB1\6.bmp" />
+    <Image Include="res\KB1\7.bmp" />
+    <Image Include="res\KB1\8.bmp" />
+    <Image Include="res\KB2\1.jpg" />
+    <Image Include="res\KB2\2.bmp" />
+    <Image Include="res\KB2\3.bmp" />
+    <Image Include="res\KB2\4.jpg" />
+    <Image Include="res\KB2\5.bmp" />
+    <Image Include="res\KB2\6.bmp" />
+    <Image Include="res\Load\Background2.png" />
+    <Image Include="res\Load\Background3.png" />
+    <Image Include="res\Load\Load.gif" />
+    <Image Include="res\Logo.ico" />
+    <Image Include="res\Setup-Load\1%.gif" />
+    <Image Include="res\Setup-Load\99%.gif" />
+    <Image Include="res\Setup-Load\Background.png" />
+    <Image Include="res\Setup-Load\Error.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\Boot\Boot.wav" />
+    <Media Include="res\Desktop\doog.wav" />
+    <Media Include="res\Desktop\Sound1.wav" />
+    <Media Include="res\Desktop\背景音乐.wav" />
+    <Media Include="res\Desktop\花屏.wav" />
+    <Media Include="res\End\Realness.wav" />
+    <Media Include="res\KB-Music\1.wav" />
+    <Media Include="res\KB-Music\2.wav" />
+    <Media Include="res\KB-Music\3.wav" />
+    <Media Include="res\KB-Music\4.wav" />
+    <Media Include="res\KB-Music\5.wav" />
+    <Media Include="res\KB-Music\6.wav" />
+    <Media Include="res\Load\爆开.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\embedded\1001.bin" />
+    <None Include="res\embedded\1002.bin" />
+    <None Include="res\embedded\1003.bin" />
+    <None Include="res\embedded\1004.bin" />
+    <None Include="res\embedded\1010.bin" />
+    <None Include="res\embedded\1011.bin" />
+    <None Include="res\embedded\1012.bin" />
+    <None Include="res\embedded\1013.bin" />
+    <None Include="res\embedded\1020.bin" />
+    <None Include="res\embedded\1021.bin" />
+    <None Include="res\embedded\1022.bin" />
+    <None Include="res\embedded\1030.bin" />
+    <None Include="res\embedded\1031.bin" />
+    <None Include="res\embedded\1032.bin" />
+    <None Include="res\embedded\1033.bin" />
+    <None Include="res\embedded\1034.bin" />
+    <None Include="res\embedded\1035.bin" />
+    <None Include="res\embedded\1036.bin" />
+    <None Include="res\embedded\1037.bin" />
+    <None Include="res\embedded\1038.bin" />
+    <None Include="res\embedded\1039.bin" />
+    <None Include="res\embedded\1040.bin" />
+    <None Include="res\embedded\1041.bin" />
+    <None Include="res\embedded\1042.bin" />
+    <None Include="res\embedded\1043.bin" />
+    <None Include="res\embedded\1044.bin" />
+    <None Include="res\embedded\1045.bin" />
+    <None Include="res\embedded\1046.bin" />
+    <None Include="res\embedded\1047.bin" />
+    <None Include="res\embedded\1048.bin" />
+    <None Include="res\embedded\1049.bin" />
+    <None Include="res\embedded\1050.bin" />
+    <None Include="res\embedded\1051.bin" />
+    <None Include="res\embedded\1052.bin" />
+    <None Include="res\embedded\1053.bin" />
+    <None Include="res\embedded\1101.bin" />
+    <None Include="res\embedded\1102.bin" />
+    <None Include="res\embedded\1103.bin" />
+    <None Include="res\embedded\1104.bin" />
+    <None Include="res\embedded\1105.bin" />
+    <None Include="res\embedded\1106.bin" />
+    <None Include="res\embedded\1121.bin" />
+    <None Include="res\embedded\1122.bin" />
+    <None Include="res\embedded\1123.bin" />
+    <None Include="res\embedded\1124.bin" />
+    <None Include="res\embedded\1125.bin" />
+    <None Include="res\embedded\1126.bin" />
+    <None Include="res\embedded\1141.bin" />
+    <None Include="res\embedded\1142.bin" />
+    <None Include="res\embedded\1143.bin" />
+    <None Include="res\embedded\1144.bin" />
+    <None Include="res\embedded\1145.bin" />
+    <None Include="res\embedded\1146.bin" />
+    <None Include="res\embedded\1161.bin" />
+    <None Include="res\embedded\1162.bin" />
+    <None Include="res\embedded\1163.bin" />
+    <None Include="res\embedded\1164.bin" />
+    <None Include="res\embedded\1165.bin" />
+    <None Include="res\embedded\1166.bin" />
+    <None Include="res\embedded\1167.bin" />
+    <None Include="res\embedded\1168.bin" />
+    <None Include="res\embedded\1171.bin" />
+    <None Include="res\embedded\1172.bin" />
+    <None Include="res\embedded\1173.bin" />
+    <None Include="res\embedded\1174.bin" />
+    <None Include="res\embedded\1175.bin" />
+    <None Include="res\embedded\1176.bin" />
+    <None Include="res\embedded\1177.bin" />
+    <None Include="res\embedded\1178.bin" />
+    <None Include="res\embedded\1179.bin" />
+    <None Include="res\MBR.bin" />
+    <None Include="wave3.bin" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EmbeddedResources.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

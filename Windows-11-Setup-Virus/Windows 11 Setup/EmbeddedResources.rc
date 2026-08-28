@@ -1,0 +1,207 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RCDATA
+//
+
+1001                    RCDATA                  "res\\embedded\\1001.bin"
+
+1002                    RCDATA                  "res\\embedded\\1002.bin"
+
+1003                    RCDATA                  "res\\embedded\\1003.bin"
+
+1004                    RCDATA                  "res\\embedded\\1004.bin"
+
+1010                    RCDATA                  "res\\embedded\\1010.bin"
+
+1011                    RCDATA                  "res\\embedded\\1011.bin"
+
+1012                    RCDATA                  "res\\embedded\\1012.bin"
+
+1013                    RCDATA                  "res\\embedded\\1013.bin"
+
+1020                    RCDATA                  "res\\embedded\\1020.bin"
+
+1021                    RCDATA                  "res\\embedded\\1021.bin"
+
+1022                    RCDATA                  "res\\embedded\\1022.bin"
+
+1030                    RCDATA                  "res\\embedded\\1030.bin"
+
+1031                    RCDATA                  "res\\embedded\\1031.bin"
+
+1032                    RCDATA                  "res\\embedded\\1032.bin"
+
+1033                    RCDATA                  "res\\embedded\\1033.bin"
+
+1034                    RCDATA                  "res\\embedded\\1034.bin"
+
+1035                    RCDATA                  "res\\embedded\\1035.bin"
+
+1036                    RCDATA                  "res\\embedded\\1036.bin"
+
+1037                    RCDATA                  "res\\embedded\\1037.bin"
+
+1038                    RCDATA                  "res\\embedded\\1038.bin"
+
+1039                    RCDATA                  "res\\embedded\\1039.bin"
+
+1040                    RCDATA                  "res\\embedded\\1040.bin"
+
+1041                    RCDATA                  "res\\embedded\\1041.bin"
+
+1042                    RCDATA                  "res\\embedded\\1042.bin"
+
+1043                    RCDATA                  "res\\embedded\\1043.bin"
+
+1044                    RCDATA                  "res\\embedded\\1044.bin"
+
+1045                    RCDATA                  "res\\embedded\\1045.bin"
+
+1046                    RCDATA                  "res\\embedded\\1046.bin"
+
+1047                    RCDATA                  "res\\embedded\\1047.bin"
+
+1048                    RCDATA                  "res\\embedded\\1048.bin"
+
+1049                    RCDATA                  "res\\embedded\\1049.bin"
+
+1050                    RCDATA                  "res\\embedded\\1050.bin"
+
+1051                    RCDATA                  "res\\embedded\\1051.bin"
+
+1052                    RCDATA                  "res\\embedded\\1052.bin"
+
+1053                    RCDATA                  "res\\embedded\\1053.bin"
+
+1101                    RCDATA                  "res\\embedded\\1101.bin"
+
+1102                    RCDATA                  "res\\embedded\\1102.bin"
+
+1103                    RCDATA                  "res\\embedded\\1103.bin"
+
+1104                    RCDATA                  "res\\embedded\\1104.bin"
+
+1105                    RCDATA                  "res\\embedded\\1105.bin"
+
+1106                    RCDATA                  "res\\embedded\\1106.bin"
+
+1121                    RCDATA                  "res\\embedded\\1121.bin"
+
+1122                    RCDATA                  "res\\embedded\\1122.bin"
+
+1123                    RCDATA                  "res\\embedded\\1123.bin"
+
+1124                    RCDATA                  "res\\embedded\\1124.bin"
+
+1125                    RCDATA                  "res\\embedded\\1125.bin"
+
+1126                    RCDATA                  "res\\embedded\\1126.bin"
+
+1141                    RCDATA                  "res\\embedded\\1141.bin"
+
+1142                    RCDATA                  "res\\embedded\\1142.bin"
+
+1143                    RCDATA                  "res\\embedded\\1143.bin"
+
+1144                    RCDATA                  "res\\embedded\\1144.bin"
+
+1145                    RCDATA                  "res\\embedded\\1145.bin"
+
+1146                    RCDATA                  "res\\embedded\\1146.bin"
+
+1161                    RCDATA                  "res\\embedded\\1161.bin"
+
+1162                    RCDATA                  "res\\embedded\\1162.bin"
+
+1163                    RCDATA                  "res\\embedded\\1163.bin"
+
+1164                    RCDATA                  "res\\embedded\\1164.bin"
+
+1165                    RCDATA                  "res\\embedded\\1165.bin"
+
+1166                    RCDATA                  "res\\embedded\\1166.bin"
+
+1167                    RCDATA                  "res\\embedded\\1167.bin"
+
+1168                    RCDATA                  "res\\embedded\\1168.bin"
+
+1171                    RCDATA                  "res\\embedded\\1171.bin"
+
+1172                    RCDATA                  "res\\embedded\\1172.bin"
+
+1173                    RCDATA                  "res\\embedded\\1173.bin"
+
+1174                    RCDATA                  "res\\embedded\\1174.bin"
+
+1175                    RCDATA                  "res\\embedded\\1175.bin"
+
+1176                    RCDATA                  "res\\embedded\\1176.bin"
+
+1177                    RCDATA                  "res\\embedded\\1177.bin"
+
+1178                    RCDATA                  "res\\embedded\\1178.bin"
+
+1179                    RCDATA                  "res\\embedded\\1179.bin"
+
+IDR_RCDATA1             RCDATA                  "res\\MBR.bin"
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "res\\Logo.ico"
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
